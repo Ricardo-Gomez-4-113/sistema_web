@@ -9,9 +9,9 @@
       <table width="80%">
         <tr>
           <td>
-            <img src="../../img/Archlinux-icon-crystal-64.svg" width="120px" height="150px">
+            <img src="../../<?php echo $foto;?>" width="120px" height="150px">
             <br>
-            <a href="#">Actualizar</a>
+            <a href="../../foto_perfil.php">Actualizar</a>
           </td>
           <td>
             Nombre

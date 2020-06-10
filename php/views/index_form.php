@@ -6,7 +6,5 @@
 	</head>
 	<body>
 		Da click <a href="login.php">aqui</a> para iniciar sesion
-		<br>
-		Da click <a href="login.php">aqui</a> para registrarte
 	</body>
 </html>
