@@ -59,6 +59,7 @@
           </td>
         </tr>
       </table>
+      <?php include "doc.php" ?>
     </center>
   </div>
 </div>

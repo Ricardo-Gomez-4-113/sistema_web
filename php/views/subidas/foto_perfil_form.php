@@ -10,6 +10,7 @@
 	}
 
 ?>
+<link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
 <br><br><br>
 <div class="container">
 	<div class="row ">

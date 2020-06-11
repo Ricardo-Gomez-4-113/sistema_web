@@ -28,7 +28,7 @@
 		move_uploaded_file($arch, $dir."/".$name_arch);
 		$dir=$dir."/".$name_arch;
 		$dirG=$dirG."/".$name_arch;
-		mysqli_query($con, "UPDATE `perfil` SET `foto`='$dirG' WHERE '$id'");
+		mysqli_query($con, "UPDATE `perfil` SET `foto`='$dirG' WHERE  `id_usr`='$id'");
 
 	}
 	print "<script>alert(\"La foto se subio correctamente\"), window.location='../../../home.php'</script>";
