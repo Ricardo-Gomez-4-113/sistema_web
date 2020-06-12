@@ -24,6 +24,7 @@
               <ul class="nav navbar-nav">
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                 <li><a href="ch_pswd.php">Contraseña</a></li>
                   <li><a href="php/views/perfil_form.php">Perfil</a></li>
                 <li><a href="logout.php">Cerrar sesion</a></li>
               </ul>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-06-2020 a las 07:33:11
+-- Tiempo de generación: 12-06-2020 a las 03:11:15
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.2.31
 
@@ -61,7 +61,7 @@ CREATE TABLE `docs` (
 --
 
 INSERT INTO `docs` (`id`, `id_usr`, `url`, `fecha`, `estatus`) VALUES
-(1, 2, 'docs/2/solicitud/NODEMCU.docx', '2020-06-11', 'Pendiente');
+(1, 2, 'docs/2/solicitud/Open hardware.docx', '2020-06-12', 'Pendiente');
 
 -- --------------------------------------------------------
 
@@ -125,7 +125,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nombre`, `password`, `tipo`) VALUES
 (1, 'ricardo', '81dc9bdb52d04dc20036dbd8313ed055', 'as'),
-(2, 'Guadalupe', '81dc9bdb52d04dc20036dbd8313ed055', 'us');
+(2, 'Guadalupe', 'c20ad4d76fe97759aa27a0c99bff6710', 'us');
 
 --
 -- Índices para tablas volcadas
